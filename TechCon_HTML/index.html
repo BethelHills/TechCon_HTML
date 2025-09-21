@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCon 2024 Conference</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCon HTML Project</title>
 </head>
 <body>
-    <header>
-        <h1>TechCon 2024 Conference</h1>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Welcome to TechCon 2024!</h2>
-            <p>Join us for an exciting event where technology leaders, innovators, and enthusiasts come together to share ideas, network, and explore the future of tech. Don’t miss out on inspiring talks, hands-on workshops, and networking opportunities at TechCon 2024!</p>
-            <video controls width="600" aria-label="TechCon 2024 Promotional Video">
-                <source src="media/techcon2024-promo.mp4" type="video/mp4">
-                <track src="media/techcon2024-promo.vtt" kind="subtitles" srclang="en" label="English">
-                Sorry, your browser does not support embedded videos. Here is a <a href="media/techcon2024-promo.mp4">link to the video</a> instead.
-            </video>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; Copyright TechCon 2024. All rights reserved.</p>
-    </footer>
+  <!-- Header -->
+  <header>
+    <h1>TechCon HTML Project</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h2>About TechCon</h2>
+      <p>This project demonstrates a clean, semantic HTML structure for learning purposes.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Here is an example of a project demonstration:</p>
+      <figure>
+        <video controls width="320">
+          <source src="example.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>Example project video</figcaption>
+      </figure>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: example@techcon.com</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 TechCon HTML Project</p>
+  </footer>
 </body>
 </html>
